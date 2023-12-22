@@ -14,21 +14,46 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+#! 页面装饰
+#* 主题 本地使用 
+# theme                  : "minimal-mistakes-jekyll"
+#* 远程主题 Github Pages
+remote_theme           : "mmistakes/minimal-mistakes"
+# *皮肤
+minimal_mistakes_skin: "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+#* 英语风格 
+locale                   : "en-US" #en-US 美国英语风格 # en-GB 英国英语风格
+
+
+#! 页面内容
+#* 网页标题
 title: Shihao Li's Website
+#* 子标题，显示在标题下方
+# subtitle: "Version 1.0"
+#* Logo
+logo: "/assets/images/Li.jpg"
+#* 邮箱
 email: 714082358@qq.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Ph.D. Candidate in Mechanical Engineering
+#* 描述（不知道显示在哪儿）
+description: #>- # this means to ignore newlines until "baseurl:"
+  "Ph.D. Candidate in Mechanical Engineering"
+#* 您站点的基本主机名和协议。如果您使用 GitHub Pages 进行托管，则类似于 url: "https://mmistakes.github.io"
+url: "https://lshasd123.github.io/" # 如果您使用 GitHub Pages 进行托管，则类似于"https://mmistakes.github.io"，Jekyll 3.3 在开发过程中本地运行 时会使用 url: http://localhost:4000 覆盖此值。
+#* 站点基本 URL，相当于在上一项url后面加上一个后缀最为链接。如果您使用 GitHub Pages 进行托管，则设置为仓库名
+baseurl:  "/Personal-Webpage" # the subpath of your site, e.g. "/blog"
+#* 联系方式
 # twitter_username: username
 github_username: lshasd123
-# 皮肤
-minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
 search: true
+#* 为每一个文章上方生成当前网站的位置
+breadcrumbs: true
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
+#* 主页中显示的最近博客的数量
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -58,46 +83,76 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Shihao Li"
+  avatar : "/assets/images/photo1.jpg"
+  bio    : "Ph.D. Candidate in Mechanical Engineering"
+  location         : "China"
+  telephon         : "(+86)13938215207"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    # - label: "(+86)13938215207"
+    #   icon: "fas fa-mobile-alt" #图标可以在https://fontawesome.com/v5/search中寻找
+    #   url: ""
+    - label: "Email"
+      icon: "far fa-envelope"
+      url: "mailto:714082358@qq.com"
+    # - label: "asdlsh"
+    #   icon: "fab fa-weixin"
+    #   url: "https://wx.qq.com/"
+    - label: "Weibo"
+      icon: "fab fa-weibo"
+      url: "https://weibo.com/u/2969168051"
+    # - label: "Telephone"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      icon: "fab fa-github"
+      url: "https://github.com/lshasd123"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/"
+    - label: "CV"
+      icon: "far fa-address-card"
+      url: "/Personal-Webpage/assets/pdf/CV.pdf"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "(+86)13938215207"
+      icon: "fas fa-mobile-alt"
+      url: ""
+    - label: "asdlsh"
+      icon: "fab fa-weixin"
+      url: "https://wx.qq.com/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:714082358@qq.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/lshasd123"
+    - label: "Weibo"
+      icon: "fab fa-weibo"
+      url: "https://weibo.com/u/2969168051"
+    
 
+#* 默认值
 defaults:
   # _posts
   - scope:
       path: ""
       type: posts
     values:
+      #* 显示博客日期
+      show_date: true
+      #* 布局
       layout: single
+      #* 显示作者信息
       author_profile: true
+      #* 显示帖子的阅读时间
       read_time: true
-      comments: true
+      #* 是否启用评论
+      comments: false
+      #* 社交平台分享
       share: true
+      #* 相关帖子
       related: true
   # _pages
   - scope:

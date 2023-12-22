@@ -1,3 +1,10 @@
+#! --------------------------------本地调试--------------------------------
+# source "https://rubygems.org"
+# gem "jekyll", "~> 4.3.2"
+# gem 'minimal-mistakes-jekyll'
+# gem 'jemoji'
+
+#! --------------------------------Github Pages--------------------------------
 source "https://rubygems.org"
 
 gem "github-pages", group: :jekyll_plugins

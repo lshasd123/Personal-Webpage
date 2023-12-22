@@ -1,9 +1,18 @@
+#* 可以调整导航栏顺序
 main:
+    #* 导航栏的名称
+  - title: "About"
+    #* 导航栏对应的网页的permalink
+    url: /about/
+    # description: # 添加描述
   - title: "Posts"
     url: /posts/
   - title: "Categories"
     url: /categories/
   - title: "Tags"
     url: /tags/
-  - title: "About"
-    url: /about/
+  - title: "Category"
+    url: /category/
+  - title: "Splash Page"
+    url: /splash-page/
+  

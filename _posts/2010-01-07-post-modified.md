@@ -1,8 +1,12 @@
 ---
 title: "Post: Modified Date"
 last_modified_at: 2016-03-09T16:20:02-05:00
+#* 类别（可以有多个）
+taxonomy: 
+  -foo
 categories:
   - Blog
+#* 标签（可以有多个）
 tags:
   - Post Formats
   - readability
