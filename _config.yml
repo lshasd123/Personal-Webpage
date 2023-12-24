@@ -154,6 +154,8 @@ defaults:
       share: true
       #* 相关帖子
       related: true
+      #* 显示标题
+      show_title: true
   # _pages
   - scope:
       path: "_pages"
@@ -161,6 +163,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      show_title: true
 
 category_archive:
   type: liquid

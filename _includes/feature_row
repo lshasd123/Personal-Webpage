@@ -21,11 +21,17 @@
 
         <div class="archive__item-body">
           {% if f.title %}
-            <h2 class="archive__item-title">{{ f.title }}</h2>
+            <!-- <h2 class="archive__item-title">{{ f.title }}</h2> -->
+            <!-- * 设置两端对齐 -->
+            <h2 class="archive__item-title" style="text-align: justify;">{{ f.title }}</h2>
           {% endif %}
 
           {% if f.excerpt %}
-            <div class="archive__item-excerpt">
+            <!-- <div class="archive__item-excerpt">
+              {{ f.excerpt | markdownify }}
+            </div> -->
+            <!-- * 设置两端对齐 -->
+            <div class="archive__item-excerpt" style="text-align: justify;">
               {{ f.excerpt | markdownify }}
             </div>
           {% endif %}
