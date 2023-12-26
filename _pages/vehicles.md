@@ -31,33 +31,33 @@ feature_6t:
     alt: "6t"
     title: "The Heavy Tracked Unmanned Ground Vehicle (HTUGV)"
     excerpt: 'HTUGV is a dual-sided independently driven series-parallel hybrid tracked platform. It has the capability for autonomous driving and remote control in unstructured environments.'
-    url: "#test-link"
-    btn_label: "More Info"
-    btn_class: "btn--primary"
+    # url: "#test-link"
+    # btn_label: "More Info"
+    # btn_class: "btn--primary"
 feature_DF:
   - image_path: /assets/images/DF.png
     alt: "ADF"
     title: "The Pure Electric Autonomous Wheeled Vehicle (ADF)"
     excerpt: 'ADF is an autonomous vehicle modified based on a commercially available electric vehicle. It is capable of autonomous navigation in both structured and unstructured scenarios.'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+    # url: "#test-link"
+    # btn_label: "Read More"
+    # btn_class: "btn--primary"
 feature_TANG:
-  - image_path: /assets/images/Tang.png
+  - image_path: /assets/images/TANG.png
     alt: "tang"
     title: "The Hybrid Power Data Collection SUV (TANG)"
     excerpt: 'TANG is a data collection vehicle modified based on a commercially available SUV. It is capable of performing data collection tasks in both structured and unstructured scenarios.'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+    # url: "#test-link"
+    # btn_label: "Read More"
+    # btn_class: "btn--primary"
 feature_SV:
   - image_path: /assets/images/SV.png
     alt: "sv"
     title: "The Mini Ackermann-steered Autonomous Vehicle (MWV)"
     excerpt: 'MWV is a mini pure electric Ackermann-steered rear-wheel-drive autonomous wheeled vehicle. It is utilized for performance testing of autonomous algorithms.'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+    # url: "#test-link"
+    # btn_label: "Read More"
+    # btn_class: "btn--primary"
 ---
 
 <!-- *添加特征行 -->

@@ -85,7 +85,7 @@ with Wenshuo Wang, Boyang Wang, Haijie Guan, Haiou Liu, Shaobin Wu, and Huiyan C
 [PDF](){: .btn .btn--inverse .btn--small}
 [Bib](javascript:void(0);){: onclick="HMPbib()"}{: .btn .btn--inverse .btn--small}
 [Vedio](){: .btn .btn--inverse .btn--small} 
-[More Info](){: .btn .btn--primary .btn--small}
+<!-- [More Info](){: .btn .btn--primary .btn--small} -->
 <div class="content" id="HMPabstract">
   <p style="text-align: justify;">
     <strong>Abstract:</strong> This paper presents an efficient and risk-aware search-optimization hierarchical trajectory planning method for automated vehicles in different road structure. The proposed approach incorporates a time-series motion risk field, capturing diverse road structures through a spatiotemporal map. Then, an adaptive motion primitive is developed, dynamically adjusting action time windows based on evolving risk and expected deviation during the search process. This enables efficient and accurate initial trajectory generation. Additionally, a bilevel corridor is introduced to extract the drivable area and rerepresent the risk field, enabling trajectory smoothing to consider motion risk without resorting to non-convex optimization methods. The method is validated through simulation in structured and unstructured scenarios, demonstrating improved efficiency, flexibility, and optimization quality compared to fixed-step search and single-level corridor-based optimization approaches.
@@ -112,7 +112,7 @@ with Xiang Zhang, Wenshuo Wang, Boyang Wang, Chao Lv, and Haiou Liu.\\
 [PDF](){: .btn .btn--inverse .btn--small}
 [Bib](javascript:void(0); ){: onclick="BCPbib()"}{: .btn .btn--inverse .btn--small}
 [Vedio](){: .btn .btn--inverse .btn--small}
-[More Info](){: .btn .btn--primary .btn--small}
+<!-- [More Info](){: .btn .btn--primary .btn--small} -->
 
 <div class="content" id="BCPabstract">
   <p style="text-align: justify;">
@@ -142,7 +142,7 @@ with Shaobin Wu, Jianwei Gong, Zexin Yan\\
 <button class="collapsible" onclick="toggleContent('EECabstract')"><strong>Abstract</strong></button>
 [PDF](){: .btn .btn--inverse .btn--small}
 [Bib](javascript:void(0);){: onclick="EECbib()"}{: .btn .btn--inverse .btn--small}
-[More Info](){: .btn .btn--primary .btn--small}
+<!-- [More Info](){: .btn .btn--primary .btn--small} -->
 
 <div class="content" id="EECabstract">
   <p style="text-align: justify;">
@@ -169,7 +169,7 @@ with Ji Li.
 [PDF](){: .btn .btn--inverse .btn--small}
 [Bib](javascript:void(0); ){: onclick="PEbib()"}{: .btn .btn--inverse .btn--small}
 [Vedio](){: .btn .btn--inverse .btn--small} 
-[More Info](){: .btn .btn--primary .btn--small}
+<!-- [More Info](){: .btn .btn--primary .btn--small} -->
 
 <div class="content" id="PEabstract">
   <p style="text-align: justify;">
