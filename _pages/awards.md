@@ -22,12 +22,12 @@ show_title: false
 ## Scholarship
 
 <div class="container">
-  <div class="left-align">&bull;&emsp;National Scholarship for Postgraduates </div>
+  <div class="left-align">&bull;&emsp;National Scholarship </div>
   <div class="right-align">Sep. 2017</div>
 </div>
 
 <div class="container">
-  <div class="left-align">&bull;&emsp;National Scholarship for Postgraduates </div>
+  <div class="left-align">&bull;&emsp;National Scholarship </div>
   <div class="right-align">Sep. 2018</div>
 </div>
 

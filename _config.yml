@@ -151,7 +151,7 @@ defaults:
       #* 是否启用评论
       comments: false
       #* 社交平台分享
-      share: true
+      share: false
       #* 相关帖子
       related: true
       #* 显示标题

@@ -74,6 +74,7 @@ classes:  wide
     }
   }
 </script>
+
 ## Working Papers
 <!-- **************************research************************** -->
 ### [Hierarchical Trajectory Planning Based on Adaptive Motion Primitives and Bilevel Corridor]()
@@ -84,7 +85,7 @@ with Wenshuo Wang, Boyang Wang, Haijie Guan, Haiou Liu, Shaobin Wu, and Huiyan C
 <button class="collapsible" onclick="toggleContent('HMPabstract')"><strong>Abstract</strong></button>
 [PDF](){: .btn .btn--inverse .btn--small}
 [Bib](javascript:void(0);){: onclick="HMPbib()"}{: .btn .btn--inverse .btn--small}
-[Vedio](){: .btn .btn--inverse .btn--small} 
+[Video]({{ site.url }}{{ site.baseurl }}/research/HMP){: .btn .btn--primary .btn--small} 
 <!-- [More Info](){: .btn .btn--primary .btn--small} -->
 <div class="content" id="HMPabstract">
   <p style="text-align: justify;">
@@ -111,7 +112,7 @@ with Xiang Zhang, Wenshuo Wang, Boyang Wang, Chao Lv, and Haiou Liu.\\
 <button class="collapsible" onclick="toggleContent('BCPabstract')"><strong>Abstract</strong></button>
 [PDF](){: .btn .btn--inverse .btn--small}
 [Bib](javascript:void(0); ){: onclick="BCPbib()"}{: .btn .btn--inverse .btn--small}
-[Vedio](){: .btn .btn--inverse .btn--small}
+[Video]({{ site.url }}{{ site.baseurl }}/research/BC){: .btn .btn--primary .btn--small}
 <!-- [More Info](){: .btn .btn--primary .btn--small} -->
 
 <div class="content" id="BCPabstract">
@@ -168,7 +169,7 @@ with Ji Li.
 <button class="collapsible" onclick="toggleContent('PEabstract')"><strong>Abstract</strong></button>
 [PDF](){: .btn .btn--inverse .btn--small}
 [Bib](javascript:void(0); ){: onclick="PEbib()"}{: .btn .btn--inverse .btn--small}
-[Vedio](){: .btn .btn--inverse .btn--small} 
+[Video]({{ site.url }}{{ site.baseurl }}/research/PHISI){: .btn .btn--primary .btn--small} 
 <!-- [More Info](){: .btn .btn--primary .btn--small} -->
 
 <div class="content" id="PEabstract">
@@ -186,3 +187,10 @@ with Ji Li.
     popupWindow.document.write("<p>" + popupContent + "</p>");
   }
 </script>
+
+
+
+## Patents
+- A method and system for evaluating the quality of unmanned vehicle path planning.\[P\] CN113759938B, 2021
+- A method for autonomous safety behavior detection in unmanned off-road vehicles.\[P\](Work in Progress)
+- A method for detecting the safety behavior of unmanned off-road vehicles overcoming obstacles.\[P\](Work in Progress)
