@@ -80,10 +80,10 @@ show_title: false
 
 <div class="container">
   <div class="left-align">&bull;&emsp;China Undergraduate Mathematical Contest in Modeling (3st) </div>
-  <div class="right-align">Sep. 2019</div>
+  <div class="right-align">Jan. 2023</div>
 </div>
 
-## Honorary title
+## Honorary Title
 
 <div class="container">
   <div class="left-align">&bull;&emsp;Excellent Student in Hubei Province </div>

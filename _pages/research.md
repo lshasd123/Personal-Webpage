@@ -35,7 +35,9 @@ classes:  wide
       border-bottom-right-radius: 5px; 
       margin-bottom: 1px;
     }
-
+    .justified-text {
+            text-align: justify;
+    }
     .content {
       padding: 0 12px;
       display: none;
@@ -135,7 +137,7 @@ with Xiang Zhang, Wenshuo Wang, Boyang Wang, Chao Lv, and Haiou Liu.\\
 
 ## Selected Published Papers
 <!-- **************************research************************** -->
-### [Modeling and Quantitative Evaluation Method of Environmental Complexity for Measuring Autonomous capabilities for Unmanned Ground Vehicles]()
+### [Modeling and Quantitative Evaluation Method of Environmental Complexity for Measuring Autonomous Capabilities for Unmanned Ground Vehicles]()
 {: .text-justify}
 with Shaobin Wu, Jianwei Gong, Zexin Yan\\
 **Unmanned Systems** 
@@ -163,7 +165,7 @@ with Shaobin Wu, Jianwei Gong, Zexin Yan\\
 
 
 ## Work in Progress
-### [PHISI: Suspension-aware Vehicle-Terrain Contact model for Pose Estimation in Unstrucured Scenarios]()
+### [PHISI: Suspension-aware Vehicle-Terrain Contact model for Pose Estimation in Unstructured Scenarios]()
 with Ji Li.
 
 <button class="collapsible" onclick="toggleContent('PEabstract')"><strong>Abstract</strong></button>
@@ -191,6 +193,15 @@ with Ji Li.
 
 
 ## Patents
-- A method and system for evaluating the quality of unmanned vehicle path planning.\[P\] CN113759938B, 2021
-- A method for autonomous safety behavior detection in unmanned off-road vehicles.\[P\](Work in Progress)
-- A method for detecting the safety behavior of unmanned off-road vehicles overcoming obstacles.\[P\](Work in Progress)
+- <div class="justified-text">
+        <p>A method for safety verification and control in unmanned off-road vehicles navigating through obstacle terrain. NO. 202311088086.3, China.</p>
+  </div>
+- <div class="justified-text">
+        <p>A method for safety behavior detection in autonomous off-road vehicles. NO. 202311088074.0, China.</p>
+  </div>
+- <div class="justified-text">
+        <p>A method and system for evaluating the quality of unmanned vehicle path planning. NO. 202221836601.2, China.</p>
+  </div>
+- <div class="justified-text">
+        <p>A convective heat exchange device based on vortex low-speed circulation air supply. NO. 201910247180.6, China.</p>
+  </div>

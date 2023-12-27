@@ -33,7 +33,7 @@ title: Shihao Li's Website
 #* Logo
 logo: "/assets/images/Li.jpg"
 #* 邮箱
-email: 714082358@qq.com
+email: lishihao.shawn@gmail.com
 #* 描述（不知道显示在哪儿）
 description: #>- # this means to ignore newlines until "baseurl:"
   "Ph.D. Candidate in Mechanical Engineering"
@@ -94,7 +94,7 @@ author:
     #   url: ""
     - label: "Email"
       icon: "far fa-envelope"
-      url: "mailto:714082358@qq.com"
+      url: "mailto:lishihao.shawn@gmail.com"
     # - label: "asdlsh"
     #   icon: "fab fa-weixin"
     #   url: "https://wx.qq.com/"
@@ -124,7 +124,7 @@ footer:
       url: "https://wx.qq.com/"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:714082358@qq.com"
+      url: "mailto:lishihao.shawn@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/lshasd123"
