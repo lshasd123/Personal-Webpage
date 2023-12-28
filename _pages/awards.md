@@ -64,12 +64,12 @@ show_title: false
 </div>
 
 <div class="container">
-  <div class="left-align">&bull;&emsp;The 6th Ground Unmanned Systems Challenge (2st) </div>
+  <div class="left-align">&bull;&emsp;The 6th Ground Unmanned Systems Challenge (2nd) </div>
   <div class="right-align">Sep. 2021</div>
 </div>
 
 <div class="container">
-  <div class="left-align">&bull;&emsp;The 6th Ground Unmanned Systems Challenge (6st) </div>
+  <div class="left-align">&bull;&emsp;The 6th Ground Unmanned Systems Challenge (6th) </div>
   <div class="right-align">Sep. 2021</div>
 </div>
 
@@ -79,7 +79,7 @@ show_title: false
 </div>
 
 <div class="container">
-  <div class="left-align">&bull;&emsp;China Undergraduate Mathematical Contest in Modeling (3st) </div>
+  <div class="left-align">&bull;&emsp;China Post-Graduate Mathematical Contest in Modeling (3rd) </div>
   <div class="right-align">Jan. 2023</div>
 </div>
 

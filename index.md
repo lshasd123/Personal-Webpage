@@ -17,6 +17,18 @@ classes:  wide
         .justified-text {
             text-align: justify;
         }
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .university {
+            margin-bottom: 30px;
+        }
+        .subtitle {
+            margin-bottom: 30px;
+            font-size: 25px;
+            font-weight: bold;
+        }
     </style>
 </head>
 
@@ -28,27 +40,22 @@ classes:  wide
   </div>
   
   ---
-  
-  <font size=5><strong>Education</strong></font>
-  
-  <div class="col-sm-8 px-4">
-      <ul id="education" class="list-group" style="padding-left: 0;">
-          <li class="list-group-item" style="list-style-type: none;">
-              <p><i class="fas fa-graduation-cap"></i><strong>&nbsp;&nbsp;&thinsp;Ph.D. &nbsp;Mechanical Engineering</strong>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;2022.09&nbsp;-&nbsp;present<br>
-                  <span class="university">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Beijing Institute of Technology (2026 Expected)</span>
-              </p>
-          </li>
-          <li class="list-group-item" style="list-style-type: none;">
-              <p><i class="fas fa-graduation-cap"></i><strong>&nbsp;&nbsp;&thinsp;M.E. &nbsp;Mechanical Engineering</strong>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;2020.09&nbsp;-&nbsp;2022.06<br>
-                  <span class="university">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Beijing Institute of Technology</span>
-              </p>
-          </li>
-          <li class="list-group-item" style="list-style-type: none;">
-              <p><i class="fas fa-graduation-cap"></i><strong>&nbsp;&nbsp;&thinsp;B.E. &nbsp;Vehicle Engineering</strong>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;2016.09&nbsp;-&nbsp;2020.06<br>
-                  <span class="university">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wuhan University of Technology</span>
-              </p>
-          </li>
-      </ul>
+  <div class="subtitle">Education</div>
+
+  <div class="container">
+    <div class="left-align"><i class="fas fa-graduation-cap"></i><strong>&nbsp;&nbsp;&thinsp;Ph.D. &nbsp;Mechanical Engineering</strong></div>
+    <div class="right-align">2022.09&nbsp;-&nbsp;Present</div>
   </div>
-  
-  
+  <div class="university">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Beijing Institute of Technology (2026 Expected)</div>
+
+  <div class="container">
+    <div class="left-align"><i class="fas fa-graduation-cap"></i><strong>&nbsp;&nbsp;&thinsp;M.E. &nbsp;Mechanical Engineering</strong></div>
+    <div class="right-align">2020.09&nbsp;-&nbsp;2022.06</div>
+  </div>
+  <div class="university">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Beijing Institute of Technology</div>
+
+  <div class="container">
+    <div class="left-align"><i class="fas fa-graduation-cap"></i><strong>&nbsp;&nbsp;&thinsp;B.E. &nbsp;Vehicle Engineering</strong></div>
+    <div class="right-align">2016.09&nbsp;-&nbsp;2020.06</div>
+  </div>
+  <div class="university">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wuhan University of Technology</div>
