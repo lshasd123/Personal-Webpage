@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 
 #! 页面装饰
-#* 主题 本地使用 
+#* 主题 本地调试 
 # theme                  : "minimal-mistakes-jekyll"
 #* 远程主题 Github Pages
 remote_theme           : "mmistakes/minimal-mistakes"
@@ -84,7 +84,7 @@ plugins:
 
 author:
   name   : "Shihao Li"
-  avatar : "/assets/images/photo1.jpg"
+  avatar : "/assets/images/lishihao.jpg"
   bio    : "Ph.D. Candidate in Mechanical Engineering"
   location         : "China"
   telephon         : "(+86)13938215207"
@@ -98,9 +98,9 @@ author:
     # - label: "asdlsh"
     #   icon: "fab fa-weixin"
     #   url: "https://wx.qq.com/"
-    - label: "Weibo"
-      icon: "fab fa-weibo"
-      url: "https://weibo.com/u/2969168051"
+    # - label: "Weibo"
+    #   icon: "fab fa-weibo"
+    #   url: "https://weibo.com/u/2969168051"
     # - label: "Telephone"
     #   icon: "fab fa-fw fa-twitter-square"
     #   url: "https://twitter.com/"
@@ -128,9 +128,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/lshasd123"
-    - label: "Weibo"
-      icon: "fab fa-weibo"
-      url: "https://weibo.com/u/2969168051"
+    # - label: "Weibo"
+    #   icon: "fab fa-weibo"
+    #   url: "https://weibo.com/u/2969168051"
     
 
 #* 默认值

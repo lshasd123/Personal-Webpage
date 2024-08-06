@@ -77,15 +77,15 @@ classes:  wide
   }
 </script>
 
-## Working Papers
+## Selected Published Papers
 <!-- **************************research************************** -->
-### [Hierarchical Trajectory Planning Based on Adaptive Motion Primitives and Bilevel Corridor]()
+### [Hierarchical Trajectory Planning Based on Adaptive Motion Primitives and Bilevel Corridor](https://ieeexplore.ieee.org/abstract/document/10574321)
 {: .text-justify}
 with Wenshuo Wang, Boyang Wang, Haijie Guan, Haiou Liu, Shaobin Wu, and Huiyan Chen.\\
-**IEEE Transactions on Vehicular Technology** (under review)
+**IEEE Transactions on Vehicular Technology**
 
 <button class="collapsible" onclick="toggleContent('HMPabstract')"><strong>Abstract</strong></button>
-[PDF](){: .btn .btn--inverse .btn--small}
+[PDF](https://ieeexplore.ieee.org/abstract/document/10574321){: .btn .btn--inverse .btn--small}
 [Bib](javascript:void(0);){: onclick="HMPbib()"}{: .btn .btn--inverse .btn--small}
 [Video]({{ site.url }}{{ site.baseurl }}/research/HMP){: .btn .btn--primary .btn--small} 
 <!-- [More Info](){: .btn .btn--primary .btn--small} -->
@@ -97,45 +97,58 @@ with Wenshuo Wang, Boyang Wang, Haijie Guan, Haiou Liu, Shaobin Wu, and Huiyan C
 
 <script>
   function HMPbib() {
-    var popupContent = "Addendum After Publication of the Paper";
-    // 创建一个新的窗口
-    var popupWindow = window.open("", "_blank", "width=400, height=300");
-    // 在新窗口中写入文本内容
-    popupWindow.document.write("<p>" + popupContent + "</p>");
-  }
+  var popupContent = `@ARTICLE{10574321,
+  author={Li, Shihao and Wang, Wenshuo and Wang, Boyang and Guan, Haijie and Liu, Haiou and Wu, Shaobin and Chen, Huiyan},
+  journal={IEEE Transactions on Vehicular Technology}, 
+  title={Hierarchical Trajectory Planning Based on Adaptive Motion Primitives and Bilevel Corridor}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-17},
+  keywords={Vehicle dynamics;Roads;Trajectory;Spatiotemporal phenomena;Dynamics;Trajectory planning;Optimization;Trajectory planning;motion risk;motion primitives;corridor-based optimization},
+  doi={10.1109/TVT.2024.3420159}}`;
+  // 创建一个新的窗口
+  var popupWindow = window.open("", "_blank", "width=400, height=300");
+  // 在新窗口中写入文本内容
+  popupWindow.document.write("<pre>" + popupContent + "</pre>");
+}
 </script>
 
 <!-- **************************research************************** -->
-### [Selecting Maneuver at Spatiotemporal Domain: A Generalized Framework Integrating Decision-making and Planning for Urban Driving]()
+### [Multi-Vehicle Collaborative Lane Changing Based on Multi-Agent Reinforcement Learning](https://ieeexplore.ieee.org/abstract/document/10574321)
 {: .text-justify}
-with Xiang Zhang, Wenshuo Wang, Boyang Wang, Chao Lv, and Haiou Liu.\\
-**IEEE Transactions on Intelligent Transportation Systems** (under review)
+with Xiang Zhang, Boyang Wang, Mingxuan Xue, Zhiwei Li, Haiou Liu\\
+**2024 IEEE Intelligent Vehicles Symposium (IV)**
 
-<button class="collapsible" onclick="toggleContent('BCPabstract')"><strong>Abstract</strong></button>
-[PDF](){: .btn .btn--inverse .btn--small}
-[Bib](javascript:void(0); ){: onclick="BCPbib()"}{: .btn .btn--inverse .btn--small}
-[Video]({{ site.url }}{{ site.baseurl }}/research/BC){: .btn .btn--primary .btn--small}
+<button class="collapsible" onclick="toggleContent('HMPabstract')"><strong>Abstract</strong></button>
+[PDF](https://ieeexplore.ieee.org/abstract/document/10588529){: .btn .btn--inverse .btn--small}
+[Bib](javascript:void(0);){: onclick="MCLCbib()"}{: .btn .btn--inverse .btn--small}
 <!-- [More Info](){: .btn .btn--primary .btn--small} -->
-
-<div class="content" id="BCPabstract">
+<div class="content" id="HMPabstract">
   <p style="text-align: justify;">
-    <strong>Abstract:</strong> The decision-making and planning modules in the autonomous driving system are highly interconnected to cope with various urban driving scenarios. Inconsistent cognition of the drivable area between them can lead to system failure or even pose safety risks. This work bridges the gap and tightly integrates the two modules into a generalizable framework by modelling and estimating maneuvers from various scenarios in the spatiotemporal domain. We abstract different environment elements into a unified spatiotemporal map. Based on this, a novel structure, Behavior Cells (BCs), is presented to describe maneuvers’ domain within lanes in a unit-based manner, and feasible homotopies can be semantically enumerated by the combination of BCs. By modelling as the finite horizon Markov decision process (FHMDP), the BCs combination with the highest benefits is transferred as boundary constraints to the planning process. Finally, the dynamic two-stage optimization uses the simplified mixed-integer quadratic program (MIQP) stage and risk-aware nonlinear programming (NLP) stage to hierarchical generate trajectory with high real-time and convergent. We demonstrate the effectiveness of our framework via simulated experiments with various complex urban driving scenarios, outperforming state-of-the-art baselines in metrics of reliability, real-time, efficiency, comfort, and low-risk performance.
+    <strong>Abstract:</strong> Achieving safe lane changing is a crucial function of autonomous vehicles, with the complexity and uncertainty of interaction involved. Learning-based approaches and vehicle collaboration techniques can enhance vehicles’ awareness of the dynamic environment, thereby enhancing the interactive capabilities. Therefore, this paper proposes a Multi-Agent Reinforcement Learning (MARL) approach to coordinate connected vehicles in reaching their respective lane changing targets. Vehicle state, scene elements, potential risk, and intention information are abstracted into highly expressive vectorized inputs. Based on this, a lightweight parameter-sharing network framework is designed to learn safe and robust cooperative lane changing policies. To address the challenges arising from multi-objects and multi-targets, a Prioritized Action Extrapolation (PAE) mechanism is employed to train the network. Through priority assignment and action extrapolation, the proposed MARL approach can optimize the decision sequence dynamically and enhance the interaction in multi-vehicle scenarios, thereby improving the vehicles’ intention attainment rate. Simulated experiments in 2-lane and 3-lane scenarios have been conducted to verify the adaptability and performance of the proposed MARL method.
     </p>
 </div>
 
 <script>
-  function BCPbib() {
-    var popupContent = "Addendum After Publication of the Paper";
-    // 创建一个新的窗口
-    var popupWindow = window.open("", "_blank", "width=400, height=300");
-    // 在新窗口中写入文本内容
-    popupWindow.document.write("<p>" + popupContent + "</p>");
-  }
+  function MCLCbib() {
+  var popupContent = `@INPROCEEDINGS{10588529,
+  author={Zhang, Xiang and Li, Shihao and Wang, Boyang and Xue, Mingxuan and Li, Zhiwei and Liu, Haiou},
+  booktitle={2024 IEEE Intelligent Vehicles Symposium (IV)}, 
+  title={Multi-Vehicle Collaborative Lane Changing Based on Multi-Agent Reinforcement Learning}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1214-1221},
+  keywords={Training;Space vehicles;Extrapolation;Uncertainty;Simulation;Collaboration;Reinforcement learning},
+  doi={10.1109/IV55156.2024.10588529}}`;
+  // 创建一个新的窗口
+  var popupWindow = window.open("", "_blank", "width=400, height=300");
+  // 在新窗口中写入文本内容
+  popupWindow.document.write("<pre>" + popupContent + "</pre>");
+}
 </script>
 
-
-
-## Selected Published Papers
 <!-- **************************research************************** -->
 ### [Modeling and Quantitative Evaluation Method of Environmental Complexity for Measuring Autonomous Capabilities for Unmanned Ground Vehicles]()
 {: .text-justify}
@@ -156,6 +169,36 @@ with Shaobin Wu, Jianwei Gong, Zexin Yan\\
 <script>
   function EECbib() {
     var popupContent = "@article\{wu2023modeling,<br>title=\{Modeling and Quantitative Evaluation Method of Environmental Complexity for Measuring Autonomous Capabilities of Military Unmanned Ground Vehicles\},<br>author=\{Wu, Shaobin and Li, Shihao and Gong, Jianwei and Yan, Zexin\},<br>journal=\{Unmanned Systems\},<br>volume=\{11\},<br>number=\{04\},<br>pages=\{367--382\},<br>year=\{2023\},\npublisher=\{World Scientific\}\}";
+    // 创建一个新的窗口
+    var popupWindow = window.open("", "_blank", "width=400, height=300");
+    // 在新窗口中写入文本内容
+    popupWindow.document.write("<p>" + popupContent + "</p>");
+  }
+</script>
+
+## Working Papers
+
+<!-- **************************research************************** -->
+### [Optimization-Based Spatiotemporal Trajectory Planning with Behavior Cells for Autonomous Driving](https://lshasd123.github.io/Behavior-Cells/)
+{: .text-justify}
+with Wenshuo Wang, Zhide Zhang, Xin Xia, Boyang Wang, Chao Lu and Haiou Liu.\\
+**IEEE Transactions on Intelligent Transportation Systems** (under review)
+
+<button class="collapsible" onclick="toggleContent('BCPabstract')"><strong>Abstract</strong></button>
+[PDF](){: .btn .btn--inverse .btn--small}
+[Bib](javascript:void(0); ){: onclick="BCPbib()"}{: .btn .btn--inverse .btn--small}
+[Video]({{ site.url }}{{ site.baseurl }}/research/BC){: .btn .btn--primary .btn--small}
+<!-- [More Info](){: .btn .btn--primary .btn--small} -->
+
+<div class="content" id="BCPabstract">
+  <p style="text-align: justify;">
+    <strong>Abstract:</strong> Achieving safe and executable trajectory planning in traffic scenarios necessitates considering vital environmental elements, ego behaviors, and vehicle inematics, which poses challenges of real-time performance and convergence for optimization-based methods. To address these issues, we propose an optimization-based trajectory planning framework that handles environmental elements and provides heuristic behavior constraints at the spatiotemporal drivable domain level, followed by progressively optimization to achieve fast and stable convergence. Specifically, considering vehicle motion capabilities and the tactical decisions for various environmental elements, we first partition the spatiotemporal domain into modular drivable cells with behavior semantics, refer to Behavior Cells (BCs). All feasible candidate behaviors are then rapidly enumerated through BCs combinations.  ubsequently, the Finite-Horizon Markov Decision Process (FHMDP) is utilized to model and evaluate each behavior in the spatiotemporal drivable domain, with the optimal BCs combination serving as heuristic constraints. Finally, we utilize a dynamic two-stage optimization approach to progressively satisfy the planning-related requirements, generating trajectories within the selected BCs combination with fast convergence. Simulation in various typical traffic demonstrate that the proposed method showcases stable reliability and realtime performance compared to the baselines under different traffic densities. On-road experiments further validate the effectiveness of the proposed method in real-world traffic scenarios. Website: https://lshasd123.github.io/Behavior-Cells/.
+    </p>
+</div>
+
+<script>
+  function BCPbib() {
+    var popupContent = "Addendum After Publication of the Paper";
     // 创建一个新的窗口
     var popupWindow = window.open("", "_blank", "width=400, height=300");
     // 在新窗口中写入文本内容

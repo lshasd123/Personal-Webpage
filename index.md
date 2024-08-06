@@ -32,10 +32,10 @@ classes:  wide
     </style>
 </head>
 
-  <font color=green size=3><strong>PhD candidate in Mechanical Engineering, Beijing Institute of Technology, China</strong></font>
+  <font color=green size=3><strong>PhD candidate in Mechanical Engineering, Beijing Institute of Technology, China<br>Joint Training Student in School of Mechanical and Aerospace Engineering, Nanyang Technological University, Singapore</strong></font>
   <div class="justified-text">
         <p>Hi! My name is Shihao Li. I am a Ph.D. candidate at the Intelligent Vehicle Research Center, <a href="https://me.bit.edu.cn/">School of Mechanical Engineering</a>, <a href="https://www.bit.edu.cn/">Beijing Institute of Technology</a>.</p>
-        <p>My research interests include decision and planning techniques for autonomous vehicles, multi-vehicle collaborative planning, and evaluation techniques for unmanned systems. I have led teams as a primary member multiple times to participate in the China Ground Unmanned Systems Challenge, achieving first and second places. I am proficient in various programming languages, including C++, Python, Matlab, Bash, and LaTeX. Additionally, I am familiar with the Linux/Ubuntu system and software tools such as ROS and Git.</p>
+        <p>My research interests include decision and planning techniques for autonomous vehicles, multi-vehicle collaborative planning, and evaluation techniques for unmanned systems. I have led teams as a primary member multiple times to participate in the China Ground Unmanned Systems Challenge, achieving first and second places. I am proficient in various programming languages, including C++, Python and Matlab. Additionally, I am familiar with the Linux/Ubuntu system and software tools such as ROS and Git.</p>
         <p>Here is my <a href="{{ site.baseurl }}/assets/pdf/CV.pdf">CV</a>.</p>
   </div>
   

@@ -121,11 +121,12 @@
    Author profile and links
    ========================================================================== */
 
+  //  !Change:修改为矩形照片
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 36px;
-  height: 36px;
+  width: 72px;
+  height: 72px;
 
   @include breakpoint($large) {
     display: block;
@@ -134,12 +135,13 @@
   }
 
   img {
-    max-width: 110px;
-    border-radius: 50%;
-
+    max-width: 200px;
+    border-radius: 8px;  /* 默认圆角矩形 */
+    
     @include breakpoint($large) {
       padding: 5px;
       border: 1px solid $border-color;
+      border-radius: 12px;  /* 大屏幕上更大的圆角 */
     }
   }
 }
